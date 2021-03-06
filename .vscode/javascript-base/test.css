@@ -1,0 +1,16 @@
+/*调用*/
+.animted {
+	animation: animationName 1s linear 
+}
+
+@keyframes animationName{
+   0%{
+
+   }
+   50% {
+   	transform: translateX(100px);
+   }
+   100% {
+   	transform:  rotate(45deg);
+   }
+}
